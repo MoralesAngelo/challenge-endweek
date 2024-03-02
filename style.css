@@ -644,22 +644,6 @@ main {
     border-color: #f8f9ff;
     color: #ffffff;
   }
-  .btn49 {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: #ffffff;
-    color: #009379;
-    width: 240px;
-    height: 60px;
-    padding: 17px;
-    border-radius: 20px;
-    border: 1px;
-    margin-bottom: 5px;
-    gap: 8px;
-    text-align: center;
-    font-family: "Poppins";
-  }
 }
 .textfree3 {
   display: flex;
@@ -667,7 +651,7 @@ main {
   align-items: flex-start;
   gap: 12px;
   margin-block: 15px;
-  margin-inline: 13px;
+  margin-inline: 0px;
   h5 {
     size: 21px;
     font-family: "mulish";
@@ -705,8 +689,8 @@ main {
   }
 }
 .textcheck3 {
-  padding-block: 50px;
-  gap: 23px;
+  padding-block: 22px;
+  gap: 27px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -718,6 +702,23 @@ main {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.btn49 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #009379;
+  width: 220px;
+  height: 60px;
+  padding: 17px;
+  border-radius: 20px;
+  border: 1px;
+  margin-bottom: 5px;
+  gap: 15px;
+  text-align: center;
+  font-family: "Poppins";
 }
 
 footer {
