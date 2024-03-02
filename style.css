@@ -60,21 +60,6 @@ main {
     }
   }
 }
-button {
-  color: white;
-  background-color: #009379;
-  display: flex;
-  border: none;
-  align-items: center;
-  padding-inline: 45px;
-  padding-block: 10px;
-  border-radius: 20px;
-  gap: 1rem;
-  margin: 10px;
-  img {
-    color: white;
-  }
-}
 
 .feature {
   header {
@@ -125,7 +110,6 @@ button {
   }
 }
 
-
 .suscribe {
   display: flex;
   flex-direction: column;
@@ -137,7 +121,7 @@ button {
   width: 100%;
   header {
     padding-block: 2rem;
-    padding-in-line: 2rem;
+    padding-inline: 2rem;
     border: 1px solid red;
   }
   div.content {
@@ -173,7 +157,7 @@ button {
           justify-content: center;
           border: 1px;
           border-color: #e5f4f2;
-          color: #white;
+          color: white;
           background: rgba(0, 147, 121, 1);
           font-family: "poppins";
           font-size: 20px;
@@ -187,9 +171,6 @@ button {
     }
   }
 }
-
-p {
-  font-family: mulish;
 
 .projects {
   justify-content: center;
@@ -475,7 +456,6 @@ p {
       }
     }
   }
-
 }
 
 footer {
