@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  font-family: Poppins Bold;
   margin: 0;
+}
+main {
   background-color: #f8f9ff;
 }
-
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -13,20 +13,24 @@
   gap: 0.3rem;
   padding: 20px;
 }
-
-header {
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  p {
-    text-align: center;
-    font-size: 45px;
-  }
-  p + p {
-    font-size: 17px;
+.hero-section {
+  header {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    h1 {
+      font-family: "Poppins";
+      text-align: center;
+      font-size: 45px;
+    }
+    p {
+      font-family: "Mulish";
+      text-align: center;
+      font-size: 17px;
+    }
   }
 
   button {
@@ -41,7 +45,7 @@ header {
     gap: 1rem;
     margin: 10px;
     img {
-      color: #009379;
+      color: white;
     }
   }
   .visualimg {
@@ -52,5 +56,50 @@ header {
       left: 81.78px;
       border-radius: 21.33px;
     }
+  }
+}
+
+.feature {
+  header {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    h2 {
+      font-family: poppins;
+      text-align: center;
+      font-size: 40px;
+    }
+    p {
+      font-family: mulish;
+      font-size: 17px;
+      text-align: center;
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-family: mulish;
+
+  button {
+    gap: 23px;
+    width: 315px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    border-color: #e5f4f2;
+    justify-content: flex-start;
+    color: #2d2d2d;
+    background-color: #ffffff;
+    font-family: mulish;
+    font-size: 20px;
   }
 }
