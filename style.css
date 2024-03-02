@@ -78,28 +78,33 @@ main {
       text-align: center;
     }
   }
-}
-
-.cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  font-family: mulish;
-
-  button {
-    gap: 23px;
-    width: 315px;
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px;
+  .cards {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    border-color: #e5f4f2;
-    justify-content: flex-start;
-    color: #2d2d2d;
-    background-color: #ffffff;
+    gap: 2rem;
     font-family: mulish;
-    font-size: 20px;
+
+    button {
+      gap: 23px;
+      width: 315px;
+      padding: 20px;
+      border-radius: 20px;
+      border: 1px;
+      display: flex;
+      align-items: center;
+      border-color: #e5f4f2;
+      justify-content: flex-start;
+      color: #2d2d2d;
+      background-color: #ffffff;
+      font-family: mulish;
+      font-size: 20px;
+    }
+  }
+  .visual2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
