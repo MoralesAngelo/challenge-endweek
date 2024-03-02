@@ -84,22 +84,21 @@ main {
     align-items: center;
     gap: 2rem;
     font-family: mulish;
-
-    button {
-      gap: 23px;
-      width: 315px;
-      padding: 20px;
-      border-radius: 20px;
-      border: 1px;
-      display: flex;
-      align-items: center;
-      border-color: #e5f4f2;
-      justify-content: flex-start;
-      color: #2d2d2d;
-      background-color: #ffffff;
-      font-family: mulish;
-      font-size: 20px;
-    }
+  }
+  button {
+    gap: 23px;
+    width: 315px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    border-color: #e5f4f2;
+    justify-content: flex-start;
+    color: #2d2d2d;
+    background-color: #ffffff;
+    font-family: mulish;
+    font-size: 20px;
   }
   .visual2 {
     margin-top: 60px;
@@ -107,4 +106,21 @@ main {
     justify-content: center;
     align-items: center;
   }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10rem;
+  padding-block: 3rem;
+  padding-inline: 1rem;
+  background-color: #2d2d2d;
+  font-family: "Mulish";
+  gap: 1rem;
+  div.links {
+    display: flex;
+    gap: 16px;
+  }
+  color: white;
 }
