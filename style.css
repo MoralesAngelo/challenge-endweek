@@ -466,7 +466,7 @@ main {
   align-items: center;
   width: 375px;
   height: 1678px;
-  padding: 60px, 30px, 60px, 30px;
+  padding: 10px;
   gap: 40px;
   background-color: #f8f9ff;
 
@@ -703,7 +703,6 @@ main {
   letter-spacing: 0em;
   text-align: left;
 }
-
 .btn49 {
   display: flex;
   flex-direction: row;
@@ -721,6 +720,146 @@ main {
   font-family: "Poppins";
 }
 
+.metrics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 375px;
+  height: 563px;
+  padding: 60px 30px 60px 30px;
+  gap: 40px;
+
+  .headmetrics {
+    width: 315px;
+    height: 181px;
+    gap: 20px;
+  }
+  .our {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  .ourtext {
+    width: 315px;
+    height: 63px;
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .metricitem {
+    display: flex;
+    flex-direction: row;
+    width: 315px;
+    height: 91px;
+    gap: 20px;
+  }
+  .metric1 {
+    width: 147px;
+    height: 91px;
+    padding: 0px 0px 0px 20px;
+    border-left: 4px solid #f2bfaf;
+  }
+  .diez {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .dieztext {
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .metric2 {
+    width: 147px;
+    height: 91px;
+    padding: 0px 0px 0px 20px;
+    border-left: 4px solid #f2bfaf;
+  }
+  .nuevetres {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .nuevetext {
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .metricitem2 {
+    display: flex;
+    flex-direction: row;
+    width: 315px;
+    height: 91px;
+    gap: 20px;
+  }
+  .metric2-1 {
+    width: 147px;
+    height: 91px;
+    padding: 0px 0px 0px 20px;
+    border-left: 4px solid #f2bfaf;
+  }
+  .doscuatro {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .doscuatrotext {
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .metric2-2 {
+    width: 147px;
+    height: 91px;
+    padding: 0px 0px 0px 20px;
+    border-left: 4px solid #f2bfaf;
+  }
+  .doce {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .docetext {
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;
