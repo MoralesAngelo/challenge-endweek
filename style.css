@@ -23,15 +23,26 @@ main {
   }
 }
 .nav-bar {
+  width: 100%;
+  height: 72px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 0.3rem;
-  padding: 20px;
 }
+
+.containerlogo {
+  display: flex;
+  gap: 6px;
+  font-family: 'poppins';
+  font-size: 23px;
+}
+
+.containerheaderbtn {
+  display: none;
+}
+
 .hero-section {
-  header {
+  .container-hero {
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -39,12 +50,12 @@ main {
     align-items: center;
     gap: 20px;
     h1 {
-      font-family: "Poppins";
+      font-family: 'Poppins';
       text-align: center;
       font-size: 45px;
     }
     p {
-      font-family: "Mulish";
+      font-family: 'Mulish';
       text-align: center;
       font-size: 17px;
     }
@@ -59,6 +70,29 @@ main {
       border-radius: 21.33px;
     }
   }
+}
+
+.container-hero-btn {
+  display: flex;
+}
+
+.hero-tittle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  gap: 10px;
+}
+
+.hero-btn-green {
+  width: 221px;
+  height: 60px;
+}
+
+.hero-btn-white {
+  display: none;
 }
 
 .feature {
@@ -128,7 +162,7 @@ main {
     border: 1px solid orange;
     border-radius: 20px;
     background: #e5f4f2;
-    font-family: "poppins";
+    font-family: 'poppins';
     text-align: center;
     padding-block: 2rem;
     padding-inline: 1rem;
@@ -146,7 +180,7 @@ main {
           display: flex;
           border: 1px solid #d8d8d8;
           border-radius: 20px;
-          font-family: "mulish";
+          font-family: 'mulish';
           width: 100%;
           height: 4rem;
         }
@@ -159,7 +193,7 @@ main {
           border-color: #e5f4f2;
           color: white;
           background: rgba(0, 147, 121, 1);
-          font-family: "poppins";
+          font-family: 'poppins';
           font-size: 20px;
           width: 100%;
           img {
@@ -188,7 +222,7 @@ main {
     font-size: 38px;
     font-weight: 600;
     line-height: 49px;
-    font-family: "poppins";
+    font-family: 'poppins';
     text-align: center;
   }
   p {
@@ -219,7 +253,7 @@ main {
     }
 
     h4 {
-      font-family: "poppins";
+      font-family: 'poppins';
       font-size: 24px;
       font-weight: 600;
       line-height: 36px;
@@ -255,7 +289,7 @@ main {
     }
 
     h4 {
-      font-family: "poppins";
+      font-family: 'poppins';
       font-size: 24px;
       font-weight: 600;
       line-height: 36px;
@@ -290,7 +324,7 @@ main {
     }
 
     h4 {
-      font-family: "poppins";
+      font-family: 'poppins';
       font-size: 24px;
       font-weight: 600;
       line-height: 36px;
@@ -319,7 +353,7 @@ main {
 
   .subheader {
     p {
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
@@ -328,14 +362,14 @@ main {
     }
     h4 {
       gap: 60px;
-      font-family: "Poppins";
+      font-family: 'Poppins';
       font-size: 45px;
       font-weight: 630;
       text-align: center;
       line-height: 60px;
     }
     p {
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 290;
       line-height: 26px;
@@ -392,7 +426,7 @@ main {
       height: 388px;
       gap: 30px;
       p {
-        font-family: "Mulish";
+        font-family: 'Mulish';
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -449,7 +483,7 @@ main {
       height: 388px;
       gap: 30px;
       p {
-        font-family: "Mulish";
+        font-family: 'Mulish';
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -471,7 +505,7 @@ main {
   background-color: #f8f9ff;
 
   h4 {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 38px;
     font-weight: 600;
     line-height: 49px;
@@ -480,7 +514,7 @@ main {
   }
 
   p {
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -510,14 +544,14 @@ main {
     margin-inline: 13px;
     h5 {
       size: 21px;
-      font-family: "mulish";
+      font-family: 'mulish';
       gap: 20px;
     }
     p {
       width: 255px;
       height: 32px;
       text-align: left;
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 400;
       line-height: 26px;
@@ -525,7 +559,7 @@ main {
       text-align: left;
     }
     .montprice {
-      font-family: "Poppins";
+      font-family: 'Poppins';
       font-size: 50px;
       font-weight: 700;
       line-height: 65px;
@@ -536,7 +570,7 @@ main {
       gap: 12px;
     }
     .textlasttex {
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 400;
       line-height: 26px;
@@ -552,7 +586,7 @@ main {
     flex-direction: column;
     width: 223px;
     height: 21px;
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -582,14 +616,14 @@ main {
     margin-inline: 13px;
     h5 {
       size: 21px;
-      font-family: "mulish";
+      font-family: 'mulish';
       gap: 20px;
     }
     p {
       width: 255px;
       height: 32px;
       text-align: left;
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 400;
       line-height: 26px;
@@ -597,7 +631,7 @@ main {
       text-align: left;
     }
     .montprice2 {
-      font-family: "Poppins";
+      font-family: 'Poppins';
       font-size: 50px;
       font-weight: 700;
       line-height: 65px;
@@ -608,7 +642,7 @@ main {
       gap: 12px;
     }
     .textlasttex2 {
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 400;
       line-height: 26px;
@@ -624,7 +658,7 @@ main {
     flex-direction: column;
     width: 223px;
     height: 21px;
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -653,14 +687,14 @@ main {
     margin-inline: 0px;
     h5 {
       size: 21px;
-      font-family: "mulish";
+      font-family: 'mulish';
       gap: 20px;
     }
     p {
       width: 255px;
       height: 32px;
       text-align: left;
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 400;
       line-height: 26px;
@@ -668,7 +702,7 @@ main {
       text-align: left;
     }
     .montprice3 {
-      font-family: "Poppins";
+      font-family: 'Poppins';
       font-size: 50px;
       font-weight: 700;
       line-height: 65px;
@@ -679,7 +713,7 @@ main {
       gap: 12px;
     }
     .textlasttex3 {
-      font-family: "Mulish";
+      font-family: 'Mulish';
       font-size: 16px;
       font-weight: 400;
       line-height: 26px;
@@ -695,7 +729,7 @@ main {
     flex-direction: column;
     width: 223px;
     height: 21px;
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -716,7 +750,7 @@ main {
     margin-bottom: 5px;
     gap: 15px;
     text-align: center;
-    font-family: "Poppins";
+    font-family: 'Poppins';
   }
 }
 
@@ -736,7 +770,7 @@ main {
     gap: 20px;
   }
   .our {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 38px;
     font-weight: 700;
     line-height: 49px;
@@ -746,7 +780,7 @@ main {
   .ourtext {
     width: 315px;
     height: 63px;
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -768,7 +802,7 @@ main {
     border-left: 4px solid #f2bfaf;
   }
   .diez {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 38px;
     font-weight: 700;
     line-height: 49px;
@@ -776,7 +810,7 @@ main {
     text-align: left;
   }
   .dieztext {
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -791,7 +825,7 @@ main {
     border-left: 4px solid #f2bfaf;
   }
   .nuevetres {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 38px;
     font-weight: 700;
     line-height: 49px;
@@ -799,7 +833,7 @@ main {
     text-align: left;
   }
   .nuevetext {
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -821,7 +855,7 @@ main {
     border-left: 4px solid #f2bfaf;
   }
   .doscuatro {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 38px;
     font-weight: 700;
     line-height: 49px;
@@ -829,7 +863,7 @@ main {
     text-align: left;
   }
   .doscuatrotext {
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -844,7 +878,7 @@ main {
     border-left: 4px solid #f2bfaf;
   }
   .doce {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 38px;
     font-weight: 700;
     line-height: 49px;
@@ -852,7 +886,7 @@ main {
     text-align: left;
   }
   .docetext {
-    font-family: "Mulish";
+    font-family: 'Mulish';
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -904,7 +938,7 @@ main {
         .text-1 {
           width: 235px;
           height: 98px;
-          font-family: "Poppins";
+          font-family: 'Poppins';
           font-size: 40px;
           font-weight: 700;
           line-height: 55px;
@@ -914,7 +948,7 @@ main {
         .text-2 {
           width: 235px;
           height: 96px;
-          font-family: "Mulish";
+          font-family: 'Mulish';
           font-size: 16px;
           font-weight: 400;
           line-height: 24px;
@@ -933,7 +967,7 @@ main {
           width: 235px;
           height: 24px;
           gap: 12px;
-          font-family: "Mulish";
+          font-family: 'Mulish';
           font-size: 16px;
           font-weight: 400px;
           line-height: 24px;
@@ -941,7 +975,7 @@ main {
           text-align: left;
         }
         .email {
-          font-family: "Mulish";
+          font-family: 'Mulish';
           font-size: 16px;
           font-weight: 400;
           line-height: 24px;
@@ -959,7 +993,7 @@ main {
         .textsocial {
           width: 235px;
           height: 27px;
-          font-family: "Poppins";
+          font-family: 'Poppins';
           font-size: 21px;
           font-weight: 600;
           line-height: 27px;
@@ -1037,7 +1071,7 @@ main {
           border: 1px;
           gap: 12px;
           border: 1px solid #d8d8d8;
-          font-family: "Mulish";
+          font-family: 'Mulish';
           font-size: 16px;
           font-weight: 400;
           line-height: 24px;
@@ -1052,7 +1086,7 @@ main {
           border: 1px;
           gap: 12px;
           border: 1px solid #d8d8d8;
-          font-family: "Mulish";
+          font-family: 'Mulish';
           font-size: 16px;
           font-weight: 400;
           line-height: 24px;
@@ -1072,11 +1106,38 @@ footer {
   padding-block: 3rem;
   padding-inline: 1rem;
   background-color: #2d2d2d;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   gap: 1rem;
   div.links {
     display: flex;
     gap: 16px;
   }
   color: white;
+}
+
+@media (width > 1024px) {
+  .nav-bar {
+    justify-content: space-around;
+  }
+  .containerheaderbtn {
+    display: flex;
+  }
+
+  .hero-btn-white {
+    display: flex;
+    width: 221px;
+    height: 60px;
+    background-color: white;
+    color: #009379;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #009379;
+  }
+
+  .hero-section {
+    width: 100%;
+    .container-hero {
+      flex-direction: row;
+    }
+  }
 }
